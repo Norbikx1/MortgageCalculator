@@ -1,5 +1,12 @@
 #Mortgage Calculator by Norbert
 
+
+
+def welcome():
+    file = open("logo.txt")
+    print(''.join([line for line in file]))
+    print("Welcome to mortgage calculator by Norbert")
+
 def getData():
     
     print ("How much money do you need?") 
@@ -29,5 +36,5 @@ def calculatePerecentage():
 
 
 
-
+welcome()
 calculatePerecentage( )
